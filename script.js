@@ -10,7 +10,7 @@ let ready = false
 let imgLoaded = 0
 let totalImg = 0
 const count = 7
-const apiKey = config.PUBLIC_KEY
+const apiKey = " YOUR API KEY GOES HERE "
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`
 
 // Get photos from Unsplashed usin API 
